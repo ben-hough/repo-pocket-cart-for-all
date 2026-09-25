@@ -1,0 +1,10 @@
+{
+  "name": "PocketCartForAll",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/ben-hough/repo-pocket-cart-for-all",
+  "description": "Shares PocketCartPlus's Keep Items upgrade with the whole lobby: once anyone consumes it (or always), every player can pocket the POCKET C.A.R.T. with its items. Host-controlled.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "darmuh-PocketCartPlus-0.6.1"
+  ]
+}

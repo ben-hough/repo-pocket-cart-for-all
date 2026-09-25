@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+*.user
+*.dll
+!libs/**/*.dll
+artifacts/
+.idea/
+refs/
+build-*/
+package/
+*.zip
+*.pdb

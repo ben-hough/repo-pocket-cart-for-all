@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>MrGlim.PocketCartForAll</AssemblyName>
+    <RootNamespace>MrGlim.PocketCartForAll</RootNamespace>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="package\**" />
+    <Compile Remove="package\**" />
+  </ItemGroup>
+  <!-- Thunderstore AI policy (wiki.thunderstore.io/llms-and-ai-generated-files): disclose AI-generated code in AssemblyMetadata and README. -->
+  <ItemGroup>
+    <AssemblyMetadata Include="AI_Assisted_Creation" Value="This assembly was partially or fully created with the assistance of Generative AI (code generation, refactoring and documentation), directed by the author MrGlim." />
+    <AssemblyMetadata Include="AI_Model_Vendor" Value="xAI (Grok)" />
+  </ItemGroup>
+</Project>
