@@ -24,7 +24,7 @@ for z in sys.argv[1:]:
     chk(re.fullmatch(r'[A-Za-z0-9_]+',m['name']) and len(m['name'])<=128 and m['name']==n,'name matches ^[A-Za-z0-9_]+$')
     chk(m['version_number']=='1.0.0','version 1.0.0')
     chk(len(m['description'])<=250,f"description {len(m['description'])} <= 250 chars")
-    chk(m['website_url']=='','website_url empty (no fake repo)')
+    chk(m['website_url']=='' or m['website_url'].startswith('https://github.com/ben-hough/'),'website_url empty or the real ben-hough GitHub repo (no fake repo)')
     for dep in m['dependencies']:
         mm=re.fullmatch(r'([A-Za-z0-9_]+)-([A-Za-z0-9_]+)-(\d+\.\d+\.\d+)',dep); chk(mm,f'dep format {dep}')
         chk(dep_exists(*mm.groups()),f'dep {dep} exists and is active on Thunderstore')
