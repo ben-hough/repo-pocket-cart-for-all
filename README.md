@@ -1,3 +1,5 @@
+> This mod has moved to https://github.com/ben-hough/repo-mods/tree/main/PocketCartForAll. This repo is archived and read-only; full history was preserved there.
+
 # PocketCartForAll
 
 Companion for **[PocketCartPlus](https://thunderstore.io/c/repo/p/darmuh/PocketCartPlus/)** by darmuh. It shares PocketCartPlus's **"Pocket C.A.R.T. Upgrade - Keep Items"** with the whole lobby. Once anyone has consumed the upgrade (or always, if the host picks that), **every player** can pocket the POCKET C.A.R.T. and keep the items inside it.
